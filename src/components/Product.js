@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import ProductContext from '../contexts/ProductContext';
 
-const Product = props => {
+const Product = () => {
 	const {product, addItem} = useContext(ProductContext)
 	return (
 		<div className="product">
