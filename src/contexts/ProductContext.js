@@ -1,2 +1,4 @@
-import React, { createContext }  from 'react';
-export const ProductContext = createContext();
+import { createContext }  from 'react';
+const ProductContext = createContext();
+
+export default ProductContext;
