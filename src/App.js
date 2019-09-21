@@ -33,10 +33,7 @@ function App() {
 					)}
 				/>
 
-				<Route
-					path="/cart"
-					render={() => <ShoppingCart cart={cart} />}
-				/>
+				<Route path="/cart" component={Products}/>
 			</div>
 		</ProductContext.Provider>
 	);
