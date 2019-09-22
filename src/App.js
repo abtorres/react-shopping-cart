@@ -17,6 +17,10 @@ function App() {
 		setCart([...cart, item]);
 	};
 
+	const removeItem = id => {
+		console.log(id)
+	}
+
 	return (
 		<ProductContext.Provider value={ { products, addItem } }>
 			<CartContext.Provider value={ cart }>
